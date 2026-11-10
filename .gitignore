@@ -1,0 +1,13 @@
+# 개인 쇼핑리스트 데이터 (배포 앱은 빈 리스트로 시작)
+data/items.json
+data/items.corrupt-*.json
+data/.items-*.tmp
+data/*.backup.json
+
+# 배포용 비밀번호 등
+.streamlit/secrets.toml
+
+# Python / 도구
+__pycache__/
+*.pyc
+.playwright-mcp/
