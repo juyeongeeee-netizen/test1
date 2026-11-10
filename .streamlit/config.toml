@@ -1,0 +1,23 @@
+# 라이트/다크 모드를 각각 지정해야 시스템 설정을 따라 자동 전환된다.
+# ([theme]에만 색을 지정하면 라이트 모드로 고정됨)
+# 팔레트: 신선한 초록(메인) + 청록(그라데이션) + 오렌지(포인트)
+
+[theme.light]
+primaryColor = "#16a34a"
+backgroundColor = "#eef6f0"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#1d3329"
+
+[theme.dark]
+primaryColor = "#22c55e"
+backgroundColor = "#0e1913"
+secondaryBackgroundColor = "#1a2b22"
+textColor = "#e3f1e8"
+
+[client]
+# 앱 에러가 나도 브라우저에는 일반 안내만 보여주고, 상세 내용(서버 경로, traceback)은 서버 로그에만 남긴다.
+showErrorDetails = "none"
+
+[browser]
+# Streamlit 사용 통계 전송 끄기 (개인 앱에 불필요, 오프라인 환경에서 콘솔 에러도 줄어듦)
+gatherUsageStats = false
